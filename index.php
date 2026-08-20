@@ -1,8 +1,13 @@
-<?php include 'cabecalho.php'; ?>
+<?php
+session_start();
+include 'conexao.php';
+include __DIR__ . '/cabecalho.php';
+?>
+
     <main>
         <p>Bem-vindo(a) ao sistema!</p>
         <p>Hoje é
             <?php echo date('d/m/Y'); ?>
         </p>
     </main>
-<?php include 'rodape.php'; ?>
+<?php require __DIR__ . '/rodape.php'; ?>
