@@ -1,1 +1,3 @@
-<?php include './../verifica_login.php'; ?>
+<?php
+require __DIR__ . '/../verifica_login.php';
+?>
