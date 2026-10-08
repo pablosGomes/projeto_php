@@ -108,3 +108,15 @@ table th {
 .btn-excluir:hover {
     background-color: #b71c1c;
 }
+
+/* Aula 10 - ajuste de responsividade básica */
+@media (max-width: 600px) {
+    header nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    table, thead, tbody, th, td, tr {
+        font-size: 14px;
+    }
+}
